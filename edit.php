@@ -1,6 +1,6 @@
 <?php
-require_once 'includes/db.php';
-require_once 'includes/header.php';
+require_once 'db.php';
+require_once 'header.php';
 // get and validate target student id from url
 $id =$_GET['id'] ?? null;
 if (!$id || !filter_var($id, FILTER_VALIDATE_INT) || (int)$id <= 0) {
