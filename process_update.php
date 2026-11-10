@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/../includes/db.php';
-require_once __DIR__ . '/../includes/functions.php';
+require_once __DIR__ . '/../db.php';
+require_once __DIR__ . '/../functions.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id     = sanitize_input($_POST['student_id'] ?? '');
     $name   = sanitize_input($_POST['name'] ?? '');
