@@ -1,6 +1,6 @@
 <?php
-require_once 'includes/db.php';
-require_once 'includes/header.php';
+require_once 'db.php';
+require_once 'header.php';
 // Query all records from db
 try {
     $stmt =$pdo->query("SELECT student_id, name, course, age FROM students ORDER BY student_id DESC");
