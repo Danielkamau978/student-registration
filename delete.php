@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/../includes/db.php';
-require_once __DIR__ . '/../includes/functions.php';
+require_once __DIR__ . '/../db.php';
+require_once __DIR__ . '/../functions.php';
 $id =$_GET['id'] ?? null;
 
 if ($id && filter_var($id, FILTER_VALIDATE_INT) && (int)$id > 0) {
