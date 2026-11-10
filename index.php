@@ -1,4 +1,4 @@
-<?php require_once 'includes/header.php'; ?>
+<?php require_once 'header.php'; ?>
 <!-- the  registration Form Card -->
 <div class="card">
     <h2 class="card-title">Register New Student</h2>
